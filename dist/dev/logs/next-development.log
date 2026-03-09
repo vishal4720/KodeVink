@@ -1,0 +1,69 @@
+[00:00:00.733] Server  LOG     ✓ Ready in 447ms
+[00:00:03.451] Server  ERROR   ⨯ ./app/globals.css:2105:16
+Parsing CSS source code failed
+  2103 |   }
+  2104 |   .has-\[\>img\:first-n\1c q\]\:pt-0 {
+> 2105 |     &:has(>img:first-nq) {
+       |                ^
+  2106 |       padding-top: calc(var(--spacing) * 0);
+  2107 |     }
+  2108 |   }
+
+'first-n' is not recognized as a valid pseudo-class. Did you mean '::first-n' (pseudo-element) or is this a typo?
+
+Import trace:
+  Client Component Browser:
+    ./app/globals.css [Client Component Browser]
+    ./app/layout.tsx [Server Component]
+
+
+[00:00:03.839] Browser ERROR   uncaughtError: Error: ./app/globals.css:2105:16
+Parsing CSS source code failed
+  2103 |   }
+  2104 |   .has-\[\>img\:first-n\1c q\]\:pt-0 {
+> 2105 |     &:has(>img:first-nq) {
+       |                ^
+  2106 |       padding-top: calc(var(--spacing) * 0);
+  2107 |     }
+  2108 |   }
+
+'first-n' is not recognized as a valid pseudo-class. Did you mean '::first-n' (pseudo-element) or is this a typo?
+
+Import trace:
+  Client Component Browser:
+    ./app/globals.css [Client Component Browser]
+    ./app/layout.tsx [Server Component]
+
+
+[00:00:04.014] Browser ERROR   ./app/globals.css:2105:16
+Parsing CSS source code failed
+  2103 |   }
+  2104 |   .has-\[\>img\:first-n\1c q\]\:pt-0 {
+> 2105 |     &:has(>img:first-nq) {
+       |                ^
+  2106 |       padding-top: calc(var(--spacing) * 0);
+  2107 |     }
+  2108 |   }
+
+'first-n' is not recognized as a valid pseudo-class. Did you mean '::first-n' (pseudo-element) or is this a typo?
+
+Import trace:
+  Client Component Browser:
+    ./app/globals.css [Client Component Browser]
+    ./app/layout.tsx [Server Component]
+[00:00:04.252] Browser ERROR   ./app/globals.css:2105:16
+Parsing CSS source code failed
+  2103 |   }
+  2104 |   .has-\[\>img\:first-n\1c q\]\:pt-0 {
+> 2105 |     &:has(>img:first-nq) {
+       |                ^
+  2106 |       padding-top: calc(var(--spacing) * 0);
+  2107 |     }
+  2108 |   }
+
+'first-n' is not recognized as a valid pseudo-class. Did you mean '::first-n' (pseudo-element) or is this a typo?
+
+Import trace:
+  Client Component Browser:
+    ./app/globals.css [Client Component Browser]
+    ./app/layout.tsx [Server Component]
