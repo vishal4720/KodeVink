@@ -22,7 +22,6 @@ const services = [
     icon: Globe,
     title: "Web Application Development",
     description: "Full-stack web applications built with modern technologies. From dashboards to complex platforms, I deliver scalable solutions.",
-    price: "Starting at $2,500",
     features: [
       "React / Next.js frontend",
       "Node.js or Django backend",
@@ -38,7 +37,6 @@ const services = [
     icon: Smartphone,
     title: "Mobile App Development",
     description: "Cross-platform mobile applications that work seamlessly on both iOS and Android. Published to app stores with real-time capabilities.",
-    price: "Starting at $3,500",
     features: [
       "Flutter cross-platform apps",
       "Native Android development",
@@ -54,7 +52,6 @@ const services = [
     icon: Cloud,
     title: "Cloud Architecture & DevOps",
     description: "AWS infrastructure setup, deployment automation, and scalable backend solutions that grow with your business.",
-    price: "Starting at $1,500",
     features: [
       "AWS infrastructure setup",
       "EC2, RDS, S3 configuration",
@@ -70,7 +67,6 @@ const services = [
     icon: Code2,
     title: "Technical Consulting",
     description: "Strategic guidance on technology choices, architecture decisions, and development best practices for your project.",
-    price: "Custom",
     features: [
       "Technology stack selection",
       "Architecture review",
@@ -86,7 +82,6 @@ const services = [
     icon: Database,
     title: "Database Design",
     description: "Optimized database schemas and queries for performance. Migration, optimization, and maintenance services.",
-    price: "Starting at $1,000",
     features: [
       "Schema design & optimization",
       "Query performance tuning",
@@ -102,7 +97,6 @@ const services = [
     icon: Zap,
     title: "API Development",
     description: "RESTful and GraphQL APIs built for performance, security, and scalability. Third-party integrations included.",
-    price: "Starting at $1,500",
     features: [
       "RESTful API design",
       "GraphQL implementation",
@@ -187,9 +181,6 @@ export default function ServicesPage() {
                         <service.icon className="h-6 w-6" />
                       </div>
                       <CardTitle className="text-xl">{service.title}</CardTitle>
-                      <p className="text-sm text-blue-600 dark:text-blue-400 font-medium">
-                        {service.price}
-                      </p>
                     </CardHeader>
                     <CardContent className="flex-1 flex flex-col">
                       <p className="text-muted-foreground text-sm mb-4">

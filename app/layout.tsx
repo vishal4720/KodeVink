@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
+// @ts-ignore: Allow side-effect import of global CSS without type declarations
 import "./globals.css";
 import { ThemeProvider } from "@/components/theme-provider";
 import { ScrollBackground } from "@/components/scroll-background";
